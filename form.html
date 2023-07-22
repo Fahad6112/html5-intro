@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="styls/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">video</a></li>
+                <li><a href="form.html">form</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="table.html">table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>please fill up the form</h2>
+            <form>
+                <label for="your name">your name:
+                    <input type="text" name="" id="" placeholder="name">
+                </label>
+                <label for="">your phone number:
+                    <input type="number" name="" id="" placeholder="your number">
+                </label>
+                <label for="">your email
+                    <input type="text" name="" id="" placeholder="email">
+                </label>
+                <fieldset>
+                    <legend>
+                        pick one item
+                    </legend>
+                    <label for="food">
+                        <input type="radio" name="food" id="food">food
+                    </label>
+                    <label for="water">
+                        <input type="radio" name="food" id="">water
+                    </label>
+                    <label for="juice">
+                        <input type="radio" name="food" id="">juice
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        pick one or more item
+                    </legend>
+                    <label for="">
+                        <input type="checkbox" name="" id="">car
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="" id="">bag
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        instruction
+                    </legend>
+                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                </fieldset>
+                <input type="reset" value="reset">
+                <input type="submit" value="submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+</html>

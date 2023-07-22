@@ -1,0 +1,23 @@
+nav>ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav li a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav li:hover{
+    background-color: bisque;
+}
+/* nested menu style */
+nav li .dropdown{
+    display: none;
+
+}
+nav li:hover > .dropdown{
+    display: block;
+    background-color: blanchedalmond;
+    position: absolute;
+    padding: 10px;
+}
