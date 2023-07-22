@@ -17,7 +17,8 @@ nav li .dropdown{
 }
 nav li:hover > .dropdown{
     display: block;
+    list-style: none;
     background-color: blanchedalmond;
     position: absolute;
-    padding: 10px;
+    padding: 0px;
 }
